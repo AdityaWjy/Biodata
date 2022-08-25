@@ -1,0 +1,585 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>split.com may be for sale</title>
+<meta charset="utf-8">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOCACHE, NOSNIPPET, NOARCHIVE">
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+
+<script>
+	
+	
+	var ContactURL = "/contactme/?d=split.com&f=7"
+	
+	function LogoNotLoaded()
+	{
+		
+		var LogoDiv = document.getElementById('logo');
+		LogoDiv.style.width = '100%';
+		
+		LogoDiv.innerHTML = '<div style="font-size:6em;font-weight:bold;color:yellow;text-shadow: 1px 1px 2px black;">split</div>';
+				
+	}
+</script>
+
+
+
+<style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    height:100%;
+    width:100%;
+}
+
+
+.context {
+    color: #fff;
+		display:block;
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform:translate(-50%, -50%);
+
+		font-size:1.3em;
+		text-align:center;
+		width:400px;
+    z-index:9999999;
+}
+
+.context h1{
+    text-align: center;
+
+    font-size: 3.5em;
+
+    font-weight:bold;
+}
+
+
+.area{    
+    width: 100%;
+    height:100vh;
+
+    background: #4e54c8;
+
+    
+    background: rgb(0,102,204);
+             
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+
+
+
+
+.shell-wrap {
+  width: 100%;
+  margin: 1.5em auto 10px auto;
+  max-width:700px;
+	text-align:left;
+}
+
+ 
+.shell-body {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  color: white;
+  font-family: 'Andale Mono', 'Consolas', 'Courier New';
+  font-size:18px;
+  font-weight:550;
+  
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.shell-body span {
+	/*display: inline-block; no need now thanks to white-space:pre-wrap*/
+	word-wrap: break-word;
+	box-decoration-break: clone;
+	white-space: pre-wrap;
+}
+
+.char-before-line:before {
+	content: '> ';
+	left: 0;
+	top: 0;
+}
+
+.typed-cursor{
+	margin: 0px;
+	padding: 0px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+</style>
+
+<script src="/js/typed.js"></script>
+
+
+
+
+
+<script>
+
+	var DomainName = 'split.com';
+
+$(document).ready(function() {
+
+	var joySpeech = [
+	["Hello I'm <span style='color:yellow'>Francois!</span>",""],
+	["Nice to meet you 😉",""],	
+	[["I am ^200a French Tech.", "I am ^800<span style='color:yellow'>also a domain broker</span> who can help you <a href='/contactme/?d=split.com&f=7' target='_self' style='padding:4px;padding-left:10px;padding-right:10px;background-color:rgb(0,153,210);border-radius:7px;color:white;font-weight:bold;'>acquire <b>split.com</b></a>"],"I am also a <span style='color:yellow'>domain broker</span> who can help you <a href='/contactme/?d=split.com&f=7' target='_self' style='padding:4px;background-color:rgb(0,153,210);border-radius:7px;color:white;font-weight:bold;'>acquire <b>split.com</b></a>"],
+		
+
+	["I am very <span style='color:yellow'>flexible</span>, <span style='color:yellow'>open-minded</span>, and <span style='color:yellow'>accessible</span>. I may offer:", "Nevertheless, I am very <span style='color:yellow'>flexible</span>, <span style='color:yellow'>open-minded</span>, and <span style='color:yellow'>accessible</span>. I may offer:"],
+	["Straight sales, lease options, rent to own, pay later, domain or NFT trades, equity deals or a mix.", "Straight sales, lease options, rent to own (up to 5 years), domain or NFT trades, equity deals or a mix."],
+	
+
+	["So <a href='/contactme/?d=split.com&f=7' target='_blank' style='padding:4px;padding-left:10px;padding-right:10px;background-color:rgb(0,153,210);border-radius:7px;color:white;font-weight:bold;'><b><b>BUY IT</b></b></a> before it's gone forever 😭 and start establishing <u>instant trust</u> and <u>credibility</u> 🚀", ""],
+
+
+	["<span style='color:lightgreen'>PS: 7 figures sale is expected.</span>",""],
+	
+	
+
+	];
+
+
+	
+	var showCompleteText = false;
+	
+	$("#showCompleteText").click(function(e){
+		stopToSpeak();
+		$(".typed-cursor").remove();
+		showCompleteText = true;
+		for (i = 0; i < joySpeech.length; i++) {
+			if (i<9) {
+				if (joySpeech[i][1] == "") {
+					$("#shell-0"+(i+1)).html(joySpeech[i][0]);
+				} else {
+					$("#shell-0"+(i+1)).html(joySpeech[i][1]);
+				}
+				addCharAtStart("#shell-0"+(i+1));
+			} else {
+				if (joySpeech[i][1] == "") {
+					$("#shell-"+(i+1)).html(joySpeech[i][0]);
+				} else {
+					$("#shell-"+(i+1)).html(joySpeech[i][1]);
+				}
+				addCharAtStart("#shell-"+(i+1));
+			}
+		}
+	});
+	
+	shell01();
+
+	function say(response) {
+		
+		var userSay = response._text;
+		var intent = response.intent;
+		var entities = response.entities; // tab
+		var confidence = response.confidence;
+		
+  
+		//var obj = jQuery.parseJSON(response);
+		console.log(response.outcomes[0]);
+		
+	}
+	
+	function startToSpeak(delay, shellLineId) {
+
+		if (delay === undefined) {
+			$("#shell-loading").attr("src", "/images/shell-loading.gif");
+			delay = 0;
+		} else {
+			setTimeout(startToSpeak, delay);
+		}
+		if (shellLineId === undefined) {
+		} else {
+			setTimeout(addCharAtStart(shellLineId), delay);
+		}
+	}
+	
+	function stopToSpeak() {
+		$("#shell-loading").attr("src", "/images/shell-loading.png");
+	}
+	
+	function addCharAtStart(shellLineId) {
+		$(shellLineId).addClass("char-before-line");
+	}
+	
+	function shell01() {
+		startToSpeak(1000, "#shell-01");
+		$("#shell-01").typed({
+			strings: [joySpeech[0][0]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak(); 
+				if (!showCompleteText) setTimeout(shell02, 2000);
+			}
+		});
+	}
+	
+	function shell02() {
+		
+		startToSpeak(1000, "#shell-02");
+		$("#shell-01 ~ span").remove();
+		$("#shell-02").typed({
+			strings: [joySpeech[1][0]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak();  
+				if (!showCompleteText) setTimeout(shell03, 2000);
+			}
+		});
+	}
+	
+	function shell03() {
+		
+		startToSpeak(1000, "#shell-03");
+		$("#shell-02 ~ span").remove();
+		$("#shell-03").typed({
+			strings: [joySpeech[2][0][0],joySpeech[2][0][1]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak(); 
+				if (!showCompleteText) setTimeout(shell04, 2000);
+			}
+		});
+	}
+	
+	function shell04() {
+		
+		startToSpeak(1000, "#shell-04");
+		$("#shell-03 ~ span").remove();
+		$("#shell-04").typed({
+			strings: [joySpeech[3][0]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak();  
+				if (!showCompleteText) setTimeout(shell05, 2000);
+			}
+		});
+	}
+	
+	function shell05() {
+		
+		startToSpeak(1000, "#shell-05");
+		$("#shell-04 ~ span").remove();
+		$("#shell-05").typed({
+			strings: [joySpeech[4][0]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak(); 
+				
+				if (!showCompleteText) setTimeout(shell06, 2000);
+				
+			}
+		});
+	}
+	
+	function shell06() {
+		
+		startToSpeak(1000, "#shell-06");
+		$("#shell-05 ~ span").remove();
+		$("#shell-06").typed({
+			strings: [joySpeech[5][0]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak(); 
+				if (!showCompleteText) setTimeout(shell07, 2000);
+			}
+		});
+	}
+	
+	function shell07() {
+		
+		startToSpeak(1000, "#shell-07");
+		$("#shell-06 ~ span").remove();
+		$("#shell-07").typed({
+			strings: [joySpeech[6][0]],
+			typeSpeed: 0,
+			startDelay: 1000,
+			callback: function() {
+				stopToSpeak(); 
+			}
+		});
+	}
+	
+});
+
+
+
+function clear() {
+	//$(".shell-body").children().children().html("");
+	//setTimeout(shell01, 5000);
+}
+
+</script>
+
+
+
+</head>
+<body>
+<a name="toppage"></a>
+
+<script type="text/javascript">
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+</script>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1615762492069281";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script type="text/javascript">
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+</script>
+
+
+
+
+
+
+
+
+
+   <div class="context">
+
+		        <div id="logo"><img src="/logos/split.com.png" border=0 alt="split.com" title="split.com" style="max-width:300px;cursor:pointer;" onerror="LogoNotLoaded();" onclick="document.location = '/contactme/?d=split.com&f=7'"></div>
+				
+
+
+        <div class="shell-wrap">            
+            <div class="shell-body">
+                <div><span id="shell-01"></span></div>
+                <div><span id="shell-02"></span></div>
+                <div><span id="shell-03"></span></div>
+                <div><span id="shell-04"></span></div>
+                <div><span id="shell-05"></span></div>
+                <div><span id="shell-06"></span></div>
+                <div><span id="shell-07"></span></div>
+                <div><span id="shell-08"></span></div>
+                <div><span id="shell-09"></span></div>
+                <div><span id="shell-10"></span></div>
+                <div><span id="shell-11"></span></div>
+                <div><span id="shell-12"></span></div>
+                <div><span id="shell-13"></span></div>
+
+
+
+            </div>
+        </div>
+        
+	</div>
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    
+    
+    
+<div class="animate__animated animate__bounceInDown animate__delay-3s" style="position:absolute;bottom:20px;right:0px;"><img src="/images/lazy.png" width=128 border=0></div>
+
+
+
+<script type="text/javascript">
+var sc_project=12566445; 
+var sc_invisible=1; 
+var sc_security="362d5c38"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+
+</body>
+</html>
